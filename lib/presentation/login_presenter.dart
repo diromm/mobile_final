@@ -28,8 +28,10 @@ class LoginPresenter extends GetxController {
     user ??= await registerWithEmail.execute(userEmail, userPassword);
     if (user == null) {
       // show error message
+      print("nao autenticado");
     } else {
       Get.offNamed(CatsScreen.id);
+
     }
   }
 }
