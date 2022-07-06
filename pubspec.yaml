@@ -54,6 +54,13 @@ dev_dependencies:
   mocktail: ^0.3.0
   network_image_mock: ^2.1.0
 
+  flutter_native_splash: ^2.0.1+1
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/fiap-logo.png
+  android_gravity: fill
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
